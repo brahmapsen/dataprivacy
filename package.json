@@ -1,0 +1,38 @@
+{
+  "name": "dataprivacy",
+  "version": "1.0.0",
+  "description": "Data privacy in healthcare is important with PHI/PII in place. This project issues tokens to users of a health system who are in conformance with data usage/privacy agreement.a",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brahmapsen/dataprivacy.git"
+  },
+  "keywords": [
+    "PII",
+    "PHI",
+    "data-privacy",
+    "data-interrperability",
+    "token"
+  ],
+  "author": "Brahma P. Sen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brahmapsen/dataprivacy/issues"
+  },
+  "homepage": "https://github.com/brahmapsen/dataprivacy#readme",
+  "dependencies": {
+    "@openzeppelin/contract-loader": "^0.6.1",
+    "web3": "^1.2.8"
+  },
+  "devDependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contracts": "^3.0.1",
+    "@openzeppelin/test-environment": "^0.1.4",
+    "@truffle/hdwallet-provider": "^1.0.35",
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0"
+  }
+}

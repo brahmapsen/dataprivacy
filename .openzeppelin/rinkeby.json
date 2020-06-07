@@ -1,0 +1,14 @@
+{
+  "contracts": {},
+  "solidityLibs": {},
+  "proxies": {
+    "dataprivacy/DataPrivacyToken": [
+      {
+        "address": "0x806B01c897fE63D74C628667429ee0319e55b646",
+        "kind": "NonProxy",
+        "bytecodeHash": "8f0ac7337bfb359e237fa640716a6706d67137896ee38ed048ad3ba55e0c58f9"
+      }
+    ]
+  },
+  "manifestVersion": "2.2"
+}
